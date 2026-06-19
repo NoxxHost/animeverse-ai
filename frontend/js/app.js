@@ -1,7 +1,7 @@
 import { characters } from './characters.js';
 import { initStorage, getChatHistory, saveMessage, clearChatHistory } from './storage.js';
 
-const API_URL = 'http://localhost:5000/api/chat/message';
+const API_URL = '/api/chat/message';
 
 // Router Target App
 const routerView = document.getElementById('app-router');
